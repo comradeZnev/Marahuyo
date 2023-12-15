@@ -1,0 +1,19 @@
+body {
+    background-image: url("../images/vector-bg-3.jpeg") !important;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.hover-underline::after {
+  background-image: linear-gradient(to right, #55CDFC, #F7A8B8) !important;
+  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75) !important;
+}
+
+.btn-gradient {
+    background-image: linear-gradient(to right, #55CDFC,  #F7A8B8 , #F7A8B8, #55CDFC) !important;
+    box-shadow: 0 4px 15px 0 #F7A8B8 !important;
+}
